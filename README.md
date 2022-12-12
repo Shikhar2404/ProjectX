@@ -1,2 +1,0 @@
-# ProjectX
-Ios application 
