@@ -5,6 +5,7 @@ import {AppNavigation} from './src/Navigators/Application';
 
 function App() {
   // const isLogin = false;
+  // const isLogin = true;
 
   return (
     <Provider store={store}>
