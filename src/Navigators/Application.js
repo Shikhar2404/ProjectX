@@ -19,6 +19,7 @@ import {ROUTES} from '../utils/constants';
 
 import SplashScreen from 'react-native-splash-screen';
 import Details from '../Screens/Details/index';
+import ViewScreen from '../Screens/View Screen';
 
 const Stack = createNativeStackNavigator();
 
@@ -47,6 +48,8 @@ const LoggedInStack = () => {
       screenOptions={{headerShown: false, detachPreviousScreen: false}}>
       <Tab.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name={ROUTES.DETAILS} component={Details} />
+      <Stack.Screen name={ROUTES.VIEWSCREEN} component={ViewScreen} />
+
       <Stack.Screen name={ROUTES.PROFILE} component={Profile} />
       <Stack.Screen name={ROUTES.EDITPROFILE} component={EditProfile} />
       <Stack.Screen
