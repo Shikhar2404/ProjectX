@@ -38,3 +38,4 @@ export {default as boy1} from './boy1.png';
 export {default as boy2} from './boy2.png';
 export {default as boy3} from './boy3.png';
 export {default as BookMarkWithBG} from './BookMarkWithBG.png';
+export {default as redHotelBG} from './redHotelBG.png';

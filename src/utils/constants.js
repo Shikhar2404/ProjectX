@@ -10,4 +10,5 @@ export const ROUTES = {
   NOTIFICATIONS: 'NotificationScreen',
   ONBOARDING: 'OnBoarding',
   DETAILS: 'Details',
+  VIEWSCREEN: 'ViewScreen',
 };
